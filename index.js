@@ -6,7 +6,7 @@ const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", 
 
 const currentDay = days[Day.getDay()]
 
-const date  = new Date().toISOString().slice(0,-5) + "Z"
+const date  = new Date().toISOString().slice(0, -5) + "Z"
 console.log(date)
 
 app.get('/api',(req,res)=>{
