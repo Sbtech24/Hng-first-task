@@ -18,7 +18,7 @@ res.status(200).json({
     "current_day":currentDay,
     "utc_time":date,
     "track":track,
-    "github_repo_url":"https://github.com/Sbtech24/Hng-first-task/blob/main/index.js",
+    "github_file_url":"https://github.com/Sbtech24/Hng-first-task/blob/main/index.js",
     "github_repo_url":"https://github.com/Sbtech24/Hng-first-task/tree/main",
     "status_code":200
 
